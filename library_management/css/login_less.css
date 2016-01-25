@@ -1,0 +1,29 @@
+﻿body {
+    padding:0px;
+    margin:0px;
+}
+.padding_element {
+    padding: 8px 5px 0 5px;
+}
+.txtInput{
+    padding: 8px 10px;
+    border: 0px;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    min-width: 200px;
+    transition: 500ms;
+}
+.button_submit {
+    padding: 8px 20px;
+    //border: 1px solid #999;
+    border: 0px;
+    color: #fff;
+    font-size: 1.11em;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 300ms;
+    background: linear-gradient(lightseagreen 90%, darkcyan 10%);
+}
+.button_submit:active {
+    background: linear-gradient(lightseagreen 95%, darkcyan 5%);
+}
